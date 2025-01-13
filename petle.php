@@ -99,7 +99,7 @@
                     <?php
                         if (isset($_POST['desc'])) {
                             $c = $_POST['desc'];
-                            for ($i = 10; $i >= $c; $i--) {
+                            for ($i = $c; $i > 0; $i--) {
                                 echo "$i ";
                             }
                         }

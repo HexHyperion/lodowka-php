@@ -102,16 +102,16 @@
                                 echo ($_GET['lGet'] < $_GET['pGet']) ? "TAK" : "NIE";
                             }
                             elseif ($_GET['znakGet'] == '<=') {
-                                echo ($_GET['lGet'] < $_GET['pGet']) ? "TAK" : "NIE";
+                                echo ($_GET['lGet'] <= $_GET['pGet']) ? "TAK" : "NIE";
                             }
                             elseif ($_GET['znakGet'] == '=') {
-                                echo ($_GET['lGet'] < $_GET['pGet']) ? "TAK" : "NIE";
+                                echo ($_GET['lGet'] == $_GET['pGet']) ? "TAK" : "NIE";
                             }
                             elseif ($_GET['znakGet'] == '>') {
-                                echo ($_GET['lGet'] < $_GET['pGet']) ? "TAK" : "NIE";
+                                echo ($_GET['lGet'] > $_GET['pGet']) ? "TAK" : "NIE";
                             }
                             elseif ($_GET['znakGet'] == '>=') {
-                                echo ($_GET['lGet'] < $_GET['pGet']) ? "TAK" : "NIE";
+                                echo ($_GET['lGet'] >= $_GET['pGet']) ? "TAK" : "NIE";
                             }
                         }
                     ?>
